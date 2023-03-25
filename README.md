@@ -1,6 +1,6 @@
 # React 入門 シンプル Todo アプリ
 A simple todo app to learn the React.
-[画像](./screen.png)
+![画像](./screen.png)
 
 # Getting Started with Create React App
 
