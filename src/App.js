@@ -44,9 +44,19 @@ function App() {
     );
   };
 
+  const resetTodo = () => {
+    setTodoList (
+      {
+        nextId : 0,
+        todoList : []
+      }
+    )
+  }
+
   return (
     <>
      <h1>TODO App</h1>
+      <p><button onClick={resetTodo}>reset</button></p>
       <TodoInput addTodo={addTodo}/>
       <TodoList tasks={todoState.todoList}/>
     </>
